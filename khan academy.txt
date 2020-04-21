@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            h1{
+                background-color:rgb(227, 68, 227);
+                font-size: 7px;
+                font-weight:bold;
+                font-style:italic;
+            }
+            h2{
+                background-color:rgb(26, 186, 159);
+                font-family:serif;
+                font-weight:bold;
+            }
+            #secondpost{
+                background-color:rgb(174, 235, 18);
+                font-style:italic;
+                font-weight:bold;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Oscar's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li>First post!</li>
+            <li>Second post!</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>01 January 2020</td>
+                    <td>New Zealand</td>
+                </tr>
+                <tr>
+                    <td>01 January 2020</td>
+                    <td>China Town (China)</td>
+                </tr>
+            </thead>
+        </table>
+        <h2>First post</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Auckland_Skyline_383495.jpg/200px-Auckland_Skyline_383495.jpg" alt="new zealand city" width="300">
+        <h6> 01 January 2020</h6>
+        
+        <p>Went to new zealand city.</p>
+        <h2 id="secondpost">Second post</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/0338jfSanta_Cruz_Escolta_Binondo_Streets_Manila_Heritage_Landmarksfvf_01.JPG/1200px-0338jfSanta_Cruz_Escolta_Binondo_Streets_Manila_Heritage_Landmarksfvf_01.JPG" alt="china town in china" width="300">
+        <h6>01 January 2020</h6>
+        <p>Went to china and visited china town
+        
+    </body>
+</html>
